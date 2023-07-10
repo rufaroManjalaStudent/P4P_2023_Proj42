@@ -58,14 +58,14 @@ d_Tr = d_Lrr/d_Rr;
 
 %STEP 3 BEGINS: Initialization of State variables for generator, 
 %Converter and Filter 
-Vdfig = bus_sln(Dmachs,2).*exp(1i*bus_sln(Dmachs,3)*pi/180); 
-Pdfig = bus_sln(Dmachs, 4); 
-Qdfig = bus_sln(Dmachs, 5); 
+Vdfig = bus_sol(Dmachs,2).*exp(1i*bus_sol(Dmachs,3)*pi/180); 
+Pdfig = bus_sol(Dmachs, 4); 
+Qdfig = bus_sol(Dmachs, 5); 
 d_vsq = real(Vdfig);    d_vsd = imag(Vdfig);    
 d_Theta = angle(Vdfig);
 
-xdfig = zeros(size(Dmachs,l),15);
-for d_index = l_size(Dmachs,l) 
+xdfig = zeros(size(Dmachs,1),15);
+for d_index = 1:size(Dmachs,1) 
     xdfig0 = ones(1,15); 
     if Pdfig(d_index)<1     % If below rated speed 
 % The function fsolve is used to solve set of SSCs described in the 
@@ -74,7 +74,7 @@ for d_index = l_size(Dmachs,l)
     xdfig(d_index,:) = fsolve(@(x)...
 init_dfig_mpt(x,Vdfig(d_index),Pdfig(d_index),... 
 Qdfig(d_index) ,data_DF,d_FLTR),...
-    xdfig0,optimset('TolFun',1e-16,'To1X',1e-16)); 
+    xdfig0,optimset('TolFun',1e-16,'TolX',1e-16)); 
     else 
 % The function fsolve is used to solve set of SSCs described in the %function init_dfig_cpt. The output is stored in xdfig variable 
         xdfig(d_index,:) = fsolve(@(x)... 

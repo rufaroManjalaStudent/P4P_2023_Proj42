@@ -34,10 +34,10 @@ Y = form_Ymatrix(bus,line);
 % Generator bus 
 Gen_Bus = 3; 
 %Infinite bus voltage 
-vinf = bus_sln(1,2).*exp(li*bus_sln(1,3)*pi/180); 
+vinf = bus_sln(1,2).*exp(1i*bus_sln(1,3)*pi/180); 
 %Generator bus voltage 
-Vg = bus_sln(Gen_Bus,2).*exp(li*bus_sln(Gen_Bus,3)*pi/180);
+Vg = bus_sln(Gen_Bus,2).*exp(1i*bus_sln(Gen_Bus,3)*pi/180);
 %Current injection from generator 
-d_ig = conj((bus_sln(Gen_Bus, 4)+li*bus_sln(Gen_Bus, 5))/Vg); 
+d_ig = conj((bus_sln(Gen_Bus, 4)+1i*bus_sln(Gen_Bus, 5))/Vg); 
 
-Znet = (Vg- vinf)/d_ig; % Network Im-edance 
+Znet = (Vg- vinf)/d_ig; % Network Impedance 

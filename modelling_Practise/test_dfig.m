@@ -1,11 +1,12 @@
 %Values associated with network
 Znet = 0.0472+ 1i*0.4700; d_Vinf = 1; Dmachs = 3; 
+
 % Values associated with generator
 d_Lm = 4;   d_Xm = d_Lm;    d_Rs = 0.005; d_Rr = 0.0055;
 d_Lss = 4.04; d_Lrr = 4.0602; d_kopt=1; d_ktg = 0.3;
 d_ctg = 0.01; d_Ht = 4; d_Hg= 0.4;
 
-d_Ls_d = d_Lss - (d_Lm^2/d_Lrr); %
+d_Lsd = d_Lss - (d_Lm^2/d_Lrr); %
 d_Kmrr = d_Lm/d_Lrr;
 d_R2 = d_Kmrr^2*d_Rr;
 d_R1 = d_Rs + d_R2;
@@ -39,6 +40,17 @@ d_GSC_IL1_kp = 0.3; d_GSC_IL1_ki= 200;  d_GSC_IL1_iv = 1.0546;
 d_GSC_IL2_kp = 0.3; d_GSC_IL2_ki = 200; d_GSC_IL2_iv = -0.0055; 
 d_GSC_OL1_kp = -22; d_GSC_OL1_ki = -870; d_GSC_OL1_iv = -0.0327; 
 d_GSC_OL2_kp = 0; d_GSC_OL2_ki = -60; d_GSC_OL2_iv = 0;
+
+%Values associated with network (Added for testing)
+Znet = 0.0472 + 1i*0.4700; 
+d_Vinf = 1; 
+Dmachs = 3; 
+
+%initial conditions
+% d_isq = ;
+% d_isd = ;
+% d_esd = ;
+% d_esq = ;
 
 %Values associated with turbine
 rho = 1.225;
