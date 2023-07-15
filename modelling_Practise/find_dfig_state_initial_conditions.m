@@ -1,10 +1,12 @@
+Dmachs = [3]; %Bus where PMSG is connected
+
 %STEP 2 BEGINS: Gather machine parameter for DFIG 
 d_welb = 2*pi*50; % electrical base speed rad/sec 
 d_ws = 1.0; % Synchronous speed in pu 
 
 % DFIG parameters 
 %data DF= [mach# bus# d _ Lm d _ Rs d _ Rr d _ Lss d _Lrr d_Kopt d_ktg d_ctg d_Ht d_Hg BaseMVA]
-data_DF = [1    5   4   0.005 0.0055 4.04 4.0602 1  0.3     0.01    4   0.4 5]; 
+data_DF = [1  5   4   0.005 0.0055 4.04 4.0602 1  0.3     0.01    4   0.4 5]; 
 % DFIG-Filter parameters 
 %FLTR = [dRi, d_Rg, dRc, dLi, dLg, dCf]; 
 d_FLTR = [0.000, 0.000, 0.7333, 0.1667, 0.0033, 0.0150]; 
@@ -58,9 +60,9 @@ d_Tr = d_Lrr/d_Rr;
 
 %STEP 3 BEGINS: Initialization of State variables for generator, 
 %Converter and Filter 
-Vdfig = bus_sol(Dmachs,2).*exp(1i*bus_sol(Dmachs,3)*pi/180); 
-Pdfig = bus_sol(Dmachs, 4); 
-Qdfig = bus_sol(Dmachs, 5); 
+Vdfig = bus_sln(Dmachs,2).*exp(1i*bus_sln(Dmachs,3)*pi/180); 
+Pdfig = bus_sln(Dmachs, 4); 
+Qdfig = bus_sln(Dmachs, 5); 
 d_vsq = real(Vdfig);    d_vsd = imag(Vdfig);    
 d_Theta = angle(Vdfig);
 
@@ -112,7 +114,7 @@ d_Qs = Qdfiq; % Reactive power reference RSC controller
 dVDC = 1.5;
 
 %Parameters for GSC controller model 
-d_vi_dash - (d_vig+li*d_vid).*exp(-1i*d_Theta); 
+d_vi_dash = (d_vig+li*d_vid).*exp(-1i*d_Theta); 
 d_ii_dash = (d_igq+li*d_igd).*exp(-1i*d_Theta); 
 
 d_GSC_ILl_iv = real(d_vi_dash); 

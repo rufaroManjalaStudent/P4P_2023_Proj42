@@ -1,7 +1,6 @@
-%Values associated with network
-Znet = 0.0472 + 1i*0.4700; 
-d_Vinf = 1; 
-Dmachs = 3; 
+%Values associated with network using network imp_calc
+%Znet = 0.0472 + 1i*0.4700;  d_Vinf = 1; 
+%Dmachs = 3; 
 % Values associated with generator
 d_Lm = 4;   d_Xm = d_Lm;    d_Rs = 0.005; d_Rr = 0.0055;
 d_Lss = 4.04; d_Lrr = 4.0602; d_kopt=1; d_ktg = 0.3;
@@ -51,5 +50,6 @@ d_Beta = 0; d_vw = 14.5316; d_Ts = 0.9385;
 Dmachs = [3]; %Bus where PMSG is connected
 Omega = 2*pi*50;
 if size(Dmachs,1)  %NOTE potential typo just changed to Dmachs from Pmachs
+    network_imp_calc %Running this first to acquire bus_sln
     find_dfig_state_initial_conditions
 end
