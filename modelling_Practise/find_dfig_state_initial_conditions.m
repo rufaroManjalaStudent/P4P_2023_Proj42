@@ -87,13 +87,13 @@ Qdfig(d_index) ,data_DF,d_FLTR),...
 end
 
 d_isq = xdfig(:,1); d_isd = xdfig(:,2);
-d_irq = xdfig(:,3); d_ard = xdfig(:,4);
-dvrq = xdfig (:,5); dvrd = xdfig(:,6); 
+d_irq = xdfig(:,3); d_ird = xdfig(:,4);
+d_vrq = xdfig (:,5); d_vrd = xdfig(:,6); 
 d_iiq = xdfig(:,7); d_Tid = xdfig(:,8); 
 d_igq = xdfig(:,9); d_igd = xdfig(:,10); 
-dviq = xdfig(:,11); d_vid = xdfig(:,12); 
+d_viq = xdfig(:,11); d_vid = xdfig(:,12); 
 d_vcq = xdfig(:,13); d_vcd = xdfig(:,14); 
-d_wg_al_xdfig(:,15); 
+d_wg=xdfig(:,15); 
 
 % d_esq and d_esd are calculated using (6.12) and (6.13)
     d_esq = d_Kmrr.*d_ws.*(d_Lrr.*d_ird + d_Lm.*d_isd); 
@@ -102,20 +102,20 @@ d_wg_al_xdfig(:,15);
 %******** STEP 4 BEGINS: Initialization of converter controllers 
 %and turbine ******* 
 % Parameters for RSC controller model 
-d_vr_dash =(d_vrq+li*d_vrd).*exp(-1i*d_Theta); 
-d_ir_dash =(d_irq+li*d_ird).*exp(-1i*d_Theta); 
-d_MSC_ILl_iv = real(dvrdash); 
-d_MSC_IL2_iv = imag(d__vr__dash); 
-dMSCOLliv = real(dirdash); 
-d_MSC_0L2_iv = imag(d__ir__dash); 
+d_vr_dash =(d_vrq+1i*d_vrd).*exp(-1i*d_Theta); 
+d_ir_dash =(d_irq+1i*d_ird).*exp(-1i*d_Theta); 
+d_MSC_ILl_iv = real(d_vr_dash); 
+d_MSC_IL2_iv = imag(d_vr_dash); 
+d_MSC_OL1_iv = real(d_vr_dash); 
+d_MSC_OL2_iv = imag(d_ir_dash); 
 
-d_Qs = Qdfiq; % Reactive power reference RSC controller 
+d_Qs = Qdfig; % Reactive power reference RSC controller 
 % B2B capacitor 
 dVDC = 1.5;
 
 %Parameters for GSC controller model 
-d_vi_dash = (d_vig+li*d_vid).*exp(-1i*d_Theta); 
-d_ii_dash = (d_igq+li*d_igd).*exp(-1i*d_Theta); 
+d_vi_dash = (d_viq+1i*d_vid).*exp(-1i*d_Theta); 
+d_ii_dash = (d_igq+1i*d_igd).*exp(-1i*d_Theta); 
 
 d_GSC_ILl_iv = real(d_vi_dash); 
 d_GSC_IL2_iv = imag(d_vi_dash); 
@@ -126,7 +126,7 @@ d_Qfilter = 0; % Reactive power reference GSC controller
 
 %Turbine initialisation 
 d_Tg = d_esq.*d_isq+d_esd.*d_isd; 
-d_Ts = dTg; 
+d_Ts = d_Tg; 
 d_wt = d_wg; 
 d_Pt = d_Ts.*d_wt;
 
@@ -134,7 +134,7 @@ for d_index = 1:size(Dmachs,1)
     if d_wg(d_index)>-1 % Above rated wind speed operation 
        d_Sw(d_index) = 15; 
        d_Lambda =  3.0337*d_wg(d_index).*d_bl/d_Sw(d_index); 
-       Cp_req = (d_base*d_Pt(d_index)*1e6)/(0.5*1.225*pi*d_b1^2*d_Sw(d_index)^3); 
+       Cp_req = (d_base*d_Pt(d_index)*1e6)/(0.5*1.225*pi*d_bl^2*d_Sw(d_index)^3); 
        d_Beta(d_index) = find_beta(Cp_req, d_Lambda); 
     else % Below rated wind speed 
        d_Lambda = 8.1; 
