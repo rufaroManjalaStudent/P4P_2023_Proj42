@@ -50,11 +50,11 @@ d_wtrated = 3.0337; % rated turbine speed
 rho = 1.225; % air density 
 
 %Calcuating derived variable using equation () - () 
-d_Ls_d = d_Lss - (d_Lm^2/d_Lrr);
+d_Lsd = d_Lss - (d_Lm^2/d_Lrr);
 d_Kmrr = d_Lm/d_Lrr; 
 d_R2 = d_Kmrr^2*d_Rr;
 d_R1 = d_Rs + d_R2; 
-d_Tr = d_Lrr/d_Rr; 
+d_Trd = d_Lrr/d_Rr; 
 
 % STEP 2 ENDS 
 
@@ -89,7 +89,7 @@ end
 d_isq = xdfig(:,1); d_isd = xdfig(:,2);
 d_irq = xdfig(:,3); d_ird = xdfig(:,4);
 d_vrq = xdfig (:,5); d_vrd = xdfig(:,6); 
-d_iiq = xdfig(:,7); d_Tid = xdfig(:,8); 
+d_iiq = xdfig(:,7); d_iid = xdfig(:,8); 
 d_igq = xdfig(:,9); d_igd = xdfig(:,10); 
 d_viq = xdfig(:,11); d_vid = xdfig(:,12); 
 d_vcq = xdfig(:,13); d_vcd = xdfig(:,14); 
@@ -104,7 +104,7 @@ d_wg=xdfig(:,15);
 % Parameters for RSC controller model 
 d_vr_dash =(d_vrq+1i*d_vrd).*exp(-1i*d_Theta); 
 d_ir_dash =(d_irq+1i*d_ird).*exp(-1i*d_Theta); 
-d_MSC_ILl_iv = real(d_vr_dash); 
+d_MSC_IL1_iv = real(d_vr_dash); 
 d_MSC_IL2_iv = imag(d_vr_dash); 
 d_MSC_OL1_iv = real(d_vr_dash); 
 d_MSC_OL2_iv = imag(d_ir_dash); 
@@ -117,7 +117,7 @@ dVDC = 1.5;
 d_vi_dash = (d_viq+1i*d_vid).*exp(-1i*d_Theta); 
 d_ii_dash = (d_igq+1i*d_igd).*exp(-1i*d_Theta); 
 
-d_GSC_ILl_iv = real(d_vi_dash); 
+d_GSC_IL1_iv = real(d_vi_dash); 
 d_GSC_IL2_iv = imag(d_vi_dash); 
 d_GSC_OL1_iv = real(d_ii_dash); 
 d_GSC_OL2_iv = imag(d_ii_dash); 

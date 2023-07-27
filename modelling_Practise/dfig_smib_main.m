@@ -1,3 +1,5 @@
+network_imp_calc %Running this first to acquire bus_sln
+
 %Values associated with network using network imp_calc
 %Znet = 0.0472 + 1i*0.4700;  d_Vinf = 1; 
 %Dmachs = 3; 
@@ -6,7 +8,7 @@ d_Lm = 4;   d_Xm = d_Lm;    d_Rs = 0.005; d_Rr = 0.0055;
 d_Lss = 4.04; d_Lrr = 4.0602; d_kopt=1; d_ktg = 0.3;
 d_ctg = 0.01; d_Ht = 4; d_Hg= 0.4;
 
-d_Ls_d = d_Lss - (d_Lm^2/d_Lrr);
+d_Lsd = d_Lss - (d_Lm^2/d_Lrr);
 d_Kmrr = d_Lm/d_Lrr;
 d_R2 = d_Kmrr^2*d_Rr;
 d_R1 = d_Rs + d_R2;
@@ -45,11 +47,12 @@ d_GSC_OL2_kp = 0; d_GSC_OL2_ki = -60; d_GSC_OL2_iv = 0;
 rho = 1.225;
 d_wtrated = 3.0337; d_wt = 0.9688; d_wg = 0.9688;
 d_bl = 40.05; d_Lambda = 8.1;
-d_Beta = 0; d_vw = 14.5316; d_Ts = 0.9385; 
+d_Beta = 0; 
+d_vw = 14.5316; 
+d_Ts = 0.9385; 
 
 Dmachs = [3]; %Bus where PMSG is connected
 Omega = 2*pi*50;
 if size(Dmachs,1)  %NOTE potential typo just changed to Dmachs from Pmachs
-    network_imp_calc %Running this first to acquire bus_sln
     find_dfig_state_initial_conditions
 end
