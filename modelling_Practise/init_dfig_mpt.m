@@ -17,7 +17,11 @@ kopt = data_DF(8);
 R1f = FLTR(1);  R2f = FLTR(2); Rcf = FLTR(3);  
 L1f = FLTR(4);  L2f = FLTR(5); Cf = FLTR(6); 
 
-% x is the solution vector. The commented section below shows index 2of I various parameters I xil) = iqs, x(21 = ids, x(31 = iqr, x(4) = idr A x15) vqr, x(6I = vdr 2 x17) - 11q, x(81 - ild, x(9) - 12q, x(10) - 12d * x1111 - vlq, x(121 - vide x111) • vcq, x(141 - vcd X(16) ur 
+% x is the solution vector. The commented section below shows index 2of I various parameters 
+%I xil) = iqs, x(21 = ids, x(31 = iqr, x(4) = idr A 
+% x(5) vqr, x(6) = vdr 2 
+% x(7) - 11q, x(8) - ild, x(9) - 12q, x(10) - 12d
+% x(11) - vlq, x(121 - vide x111) • vcq, x(141 - vcd X(16) ur 
 % set of Ax-b - 0 equations. Refer Section xx for details. 
 F = [-Rs*x(1)+ws*(Lss*x(2)+Lm*x(4))-vqs; % SSC 1 
     -Rs*x(2)-ws*(Lss*x(1)+Lm*x(3))-vds; % SSC 2 

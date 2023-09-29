@@ -1,0 +1,10 @@
+
+-------------------- Starting compilation --------------------
+Start at : Thursday, September 07, 2023, 16:40:15
+
+The current RT-LAB version is:  v2023.2.1.578
+The current model is:           C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx
+The current host platform is:   Windows
+The current target platform is: Windows
+The current compiler is:        MinGW (9.2)
+ERROR: The license on 'localhost' does not allow you to compile a model. Load license: error opening license file! (C:\OPAL-RT\LicServer\opallicense.bin)

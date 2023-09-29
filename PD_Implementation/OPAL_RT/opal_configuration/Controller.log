@@ -1,0 +1,145 @@
+2023-9-1 16h15m39s:Using default NodeSessions limit.  Limit set to 1024.
+2023-9-1 16h15m39s: >>>> SessionRoot::initialize port 0
+2023-9-1 16h15m39s:Begin to register on OpalRoot
+2023-9-1 16h15m39s:Registered on OpalRoot, port 25252
+2023-9-1 16h15m39s:Loading services from "C:/OPAL-RT/RT-LAB/2023.2.1/common/bin/x64/Services"
+2023-9-1 16h15m39s:  Plugin "DataAcquisition": services informations retrieved
+2023-9-1 16h15m39s:  Plugin "DriverIdentification": services informations retrieved
+2023-9-1 16h15m39s:  Plugin "Dummy": services informations retrieved
+2023-9-1 16h15m39s:  Plugin "ePHASORSIM": services informations retrieved
+2023-9-1 16h15m39s:  Plugin "HEI": services informations retrieved
+2023-9-1 16h15m39s:  Plugin "IEC104": services informations retrieved
+2023-9-1 16h15m39s:  Plugin "Matlab": services informations retrieved
+2023-9-1 16h15m39s:  Plugin "MODBUS": services informations retrieved
+2023-9-1 16h15m39s:  Plugin "Parameters": services informations retrieved
+2023-9-1 16h15m39s:  Plugin "Pickering-41-752": services informations retrieved
+2023-9-1 16h15m39s:  Plugin "RFM": services informations retrieved
+2023-9-1 16h15m39s:  Plugin "SimulationSetup": services informations retrieved
+2023-9-1 16h15m39s:  Plugin "Web": services informations retrieved
+2023-9-1 16h15m39s:Root initialized: 172.23.163.207:25252/resources/root
+2023-9-1 16h15m39s:Service Web/Server found
+2023-9-1 16h15m39s:Initialization done
+2023-9-1 16h15m39s:ControllerMain.cpp------- NEW CONTROLLER STARTED (pid 11512) ------
+2023-9-1 16h15m39s:Controller.cppnew client: 12056
+2023-9-1 16h15m39s:CClient.cppCreating new client ID: 23224
+2023-9-1 16h15m39s:CClient.cppclientThread started with port:1256
+2023-9-1 16h15m39s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 2044
+2023-9-1 16h15m39s:Service SimulationSetup/SimulationSetup found
+2023-9-1 16h15m39s:No SyncExchangerRegistry found at C:/Users/rufar/OneDrive - The University of Auckland/COMPSYS 700A/P4P_2023_Proj42/modelling_Practise/Ravi_Version/OPAL_RT/opal_configuration/configurations/SyncExchangerRegistry
+2023-9-1 16h15m40s:Controller.cppnew client: 12056
+2023-9-1 16h15m40s:CClient.cppCreating new client ID: 17964
+2023-9-1 16h15m40s:CClient.cppclientThread started with port:1476
+2023-9-1 16h15m40s:Instance ID = 103
+2023-9-1 16h15m40s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 2044
+2023-9-1 16h15m40s:ControllerHandleRequest.cpppClient->notifCommSock = 1420
+2023-9-1 16h15m43s:Controller.cppnew client: 12056
+2023-9-1 16h15m43s:CClient.cppCreating new client ID: 2780
+2023-9-1 16h15m43s:CClient.cppclientThread started with port:1384
+2023-9-1 16h15m43s:Instance ID = 103
+2023-9-1 16h15m43s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 2044
+2023-9-1 16h15m43s:Controller.cppNOTIFICATION MSG IS: 72057594037927936,2030
+2023-9-1 16h15m43s:ControllerHandleRequest.cpppClient->notifCommSock = 1352
+2023-9-1 16h20m27s:Controller.cppnew client: 12056
+2023-9-1 16h20m27s:CClient.cppCreating new client ID: 22916
+2023-9-1 16h20m27s:CClient.cppclientThread started with port:1412
+2023-9-1 16h20m27s:Instance ID = 103
+2023-9-1 16h20m27s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 2044
+2023-9-1 16h20m27s:MatlabHandler - Close: object reference = 0, close all matlab instances
+2023-9-1 16h20m27s:Controller.cppRemoving client: 22916
+2023-9-1 16h20m27s:Controller.cppSuccessful removal of client: 22916
+2023-9-1 16h20m27s:CClient.cpp  clientThread exit. ThreadParam = 0x375dee0
+2023-9-1 16h20m27s:Controller.cppRemoving client: 23224
+2023-9-1 16h20m27s:Controller.cppSuccessful removal of client: 23224
+2023-9-1 16h20m27s:CClient.cpp  clientThread exit. ThreadParam = 0x371e060
+2023-9-1 16h20m27s:Controller.cppRemoving client: 17964
+2023-9-1 16h20m27s:Controller.cppSuccessful removal of client: 17964
+2023-9-1 16h20m27s:CClient.cpp  clientThread exit. ThreadParam = 0x375e100
+2023-9-1 16h20m27s:Controller.cppRemoving client: 2780
+2023-9-1 16h20m27s:ControllerExit.cppterminateControlCommThread, call OpalInitializeSend with ipAddr 172.23.163.207:47386
+2023-9-1 16h20m27s:Controller.cppSuccessful removal of client: 2780
+2023-9-1 16h20m27s:CClient.cpp  clientThread exit. ThreadParam = 0x375dd80
+2023-9-1 16h20m27s:ControllerExit.cppEntering CloseSubControllers
+2023-9-1 16h20m27s:Stopping OpalNode watchdog.
+2023-9-1 16h20m27s:CTargetList.cppError 0 from recvfrom
+2023-9-1 16h20m27s:CTargetList.cppError -1 shutting down the target listener's socket.
+2023-9-1 16h20m27s:CTargetList.cppError -1 closing the target listener's socket.
+2023-9-1 16h20m27s:
+
+MasterRoot shutdown!
+2023-9-1 16h20m27s:Objects destruction
+2023-9-1 16h20m27s:..Unloading Notification Center..
+2023-9-1 16h20m27s:Objects are deleted
+Nothing should happen after this action
+2023-9-7 16h6m21s:Using default NodeSessions limit.  Limit set to 1024.
+2023-9-7 16h6m21s: >>>> SessionRoot::initialize port 0
+2023-9-7 16h6m21s:Begin to register on OpalRoot
+2023-9-7 16h6m21s:Registered on OpalRoot, port 25250
+2023-9-7 16h6m21s:Loading services from "C:/OPAL-RT/RT-LAB/2023.2.1/common/bin/x64/Services"
+2023-9-7 16h6m21s:  Plugin "DataAcquisition": services informations retrieved
+2023-9-7 16h6m21s:  Plugin "DriverIdentification": services informations retrieved
+2023-9-7 16h6m21s:  Plugin "Dummy": services informations retrieved
+2023-9-7 16h6m21s:  Plugin "ePHASORSIM": services informations retrieved
+2023-9-7 16h6m21s:  Plugin "HEI": services informations retrieved
+2023-9-7 16h6m21s:  Plugin "IEC104": services informations retrieved
+2023-9-7 16h6m21s:  Plugin "Matlab": services informations retrieved
+2023-9-7 16h6m21s:  Plugin "MODBUS": services informations retrieved
+2023-9-7 16h6m21s:  Plugin "Parameters": services informations retrieved
+2023-9-7 16h6m21s:  Plugin "Pickering-41-752": services informations retrieved
+2023-9-7 16h6m21s:  Plugin "RFM": services informations retrieved
+2023-9-7 16h6m21s:  Plugin "SimulationSetup": services informations retrieved
+2023-9-7 16h6m21s:  Plugin "Web": services informations retrieved
+2023-9-7 16h6m21s:Root initialized: 172.23.178.137:25250/resources/root
+2023-9-7 16h6m21s:Service Web/Server found
+2023-9-7 16h6m21s:Initialization done
+2023-9-7 16h6m21s:ControllerMain.cpp------- NEW CONTROLLER STARTED (pid 4512) ------
+2023-9-7 16h6m21s:Controller.cppnew client: 21788
+2023-9-7 16h6m21s:CClient.cppCreating new client ID: 10108
+2023-9-7 16h6m21s:CClient.cppclientThread started with port:1240
+2023-9-7 16h6m21s:Instance ID = 0
+2023-9-7 16h6m21s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 12496
+2023-9-7 16h6m22s:Service SimulationSetup/SimulationSetup found
+2023-9-7 16h6m22s:Controller.cppnew client: 21788
+2023-9-7 16h6m22s:CClient.cppCreating new client ID: 3184
+2023-9-7 16h6m22s:CClient.cppclientThread started with port:1436
+2023-9-7 16h6m22s:Instance ID = 101
+2023-9-7 16h6m22s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 12496
+2023-9-7 16h6m22s:ControllerHandleRequest.cpppClient->notifCommSock = 1456
+2023-9-7 16h6m28s:Controller.cppnew client: 21788
+2023-9-7 16h6m28s:CClient.cppCreating new client ID: 9452
+2023-9-7 16h6m28s:CClient.cppclientThread started with port:1440
+2023-9-7 16h6m28s:Instance ID = 101
+2023-9-7 16h6m28s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 12496
+2023-9-7 16h6m28s:Controller.cppNOTIFICATION MSG IS: 72057594037927936,2030
+2023-9-7 16h6m28s:ControllerHandleRequest.cpppClient->notifCommSock = 1536
+2023-9-8 15h22m36s:Controller.cppnew client: 21788
+2023-9-8 15h22m36s:CClient.cppCreating new client ID: 21556
+2023-9-8 15h22m36s:CClient.cppclientThread started with port:1348
+2023-9-8 15h22m36s:Instance ID = 101
+2023-9-8 15h22m36s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 12496
+2023-9-8 15h22m36s:MatlabHandler - Close: object reference = 0, close all matlab instances
+2023-9-8 15h22m36s:Controller.cppRemoving client: 21556
+2023-9-8 15h22m36s:Controller.cppSuccessful removal of client: 21556
+2023-9-8 15h22m36s:CClient.cpp  clientThread exit. ThreadParam = 0x35d4440
+2023-9-8 15h22m36s:Controller.cppRemoving client: 10108
+2023-9-8 15h22m36s:Controller.cppSuccessful removal of client: 10108
+2023-9-8 15h22m36s:CClient.cpp  clientThread exit. ThreadParam = 0x350aea0
+2023-9-8 15h22m36s:Controller.cppRemoving client: 3184
+2023-9-8 15h22m36s:Controller.cppSuccessful removal of client: 3184
+2023-9-8 15h22m36s:CClient.cpp  clientThread exit. ThreadParam = 0x35d4780
+2023-9-8 15h22m36s:Controller.cppRemoving client: 9452
+2023-9-8 15h22m36s:ControllerExit.cppterminateControlCommThread, call OpalInitializeSend with ipAddr 172.23.178.137:47386
+2023-9-8 15h22m37s:ControllerExit.cppEntering CloseSubControllers
+2023-9-8 15h22m37s:Stopping OpalNode watchdog.
+2023-9-8 15h22m58s:Controller.cppSuccessful removal of client: 9452
+2023-9-8 15h22m58s:CClient.cpp  clientThread exit. ThreadParam = 0x35d4900
+2023-9-8 15h22m58s:CTargetList.cppError 0 from recvfrom
+2023-9-8 15h22m58s:CTargetList.cppError -1 shutting down the target listener's socket.
+2023-9-8 15h22m58s:CTargetList.cppError -1 closing the target listener's socket.
+2023-9-8 15h22m59s:Error: no reachable IP has been found out of [172.23.178.137:25250]
+2023-9-8 15h22m59s:
+
+MasterRoot shutdown!
+2023-9-8 15h23m0s:Objects destruction
+2023-9-8 15h23m0s:..Unloading Notification Center..
+2023-9-8 15h23m0s:Objects are deleted
+Nothing should happen after this action

@@ -58,7 +58,7 @@ d_Trd = d_Lrr/d_Rr;
 
 % STEP 2 ENDS 
 
-%STEP 3 BEGINS: Initialization of State variables for generator, 
+%STEP 3 BEGINS: inialization of State variables for generator, 
 %Converter and Filter 
 Vdfig = bus_sln(Dmachs,2).*exp(1i*bus_sln(Dmachs,3)*pi/180); 
 Pdfig = bus_sln(Dmachs, 4); 
@@ -139,7 +139,7 @@ for d_index = 1:size(Dmachs,1)
     else % Below rated wind speed 
        d_Lambda = 8.1; 
        d_Beta = 0; 
-       d_Sw(d_index,1)= (d_Rt(d_index)*d_base*le6/(0.5*1.225*pi*d_b1^2*0.48))*(1/3); 
+       d_Sw(d_index,1)= (d_Pt(d_index)*d_base*le6/(0.5*1.225*pi*d_bl^2*0.48))*(1/3); 
     end 
 end 
 

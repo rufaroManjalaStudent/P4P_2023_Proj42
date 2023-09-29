@@ -1,0 +1,189 @@
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  ******************************************************************************** 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  * Start time: 2023-09-07 16:06:20.983 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  * RT-LAB version: v2023.2.1.578 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  * Java Version: 1.8.0_191 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  * Eclipse location: C:\OPAL-RT\RT-LAB\2023.2.1\common\ui\RT-LAB.exe 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  * User name: rufar 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  * Machine name: UOA_LAPTOP-RMAN 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  ******************************************************************************** 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  Log Levels : 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  REFLECTION=WARNING 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  CONNECTION=WARNING 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  JSON=WARNING 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  INIT=ALL 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  LABVIEW=WARNING 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  PROJECT=WARNING 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  TARGET=INFO 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  EXCEPTION=INFO 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  CLOSE=INFO 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  EVENT=WARNING 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  DATALOGGER=WARNING 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  ALIASES=WARNING 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  OPALONE=INFO 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]   
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  To modify log levels: 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]   * Create file loglevels.properties in .metadata directory of your workspace 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]   * add inside line : log.level.<log_category>=<level> 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  	o <log_category> : one of the previous values (REFLEXION, LABVIEW...) 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  	o <level> : SEVERE, WARNING, INFO, FINE, FINEST (order is min to higest) 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  ******************************************************************************** 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  * Environment variables:  
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] ARTEMIS_ROOT=C:\OPAL-RT\ARTEMIS\v7.7.4.182 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] USERDOMAIN_ROAMINGPROFILE=UOA_LAPTOP-RMAN 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] PROCESSOR_LEVEL=6 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] SESSIONNAME=Console 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] ALLUSERSPROFILE=C:\ProgramData 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] PROCESSOR_ARCHITECTURE=AMD64 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] SystemDrive=C: 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] USERNAME=rufar 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] ProgramFiles(x86)=C:\Program Files (x86) 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] FPS_BROWSER_USER_PROFILE_STRING=Default 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] PYTHONPATH=c:\opal-rt\rt-lab\2023.2.1\common\python;c:\opal-rt\rt-lab\2023.2.1\common\bin; 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] DriverData=C:\Windows\System32\Drivers\DriverData 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] OneDriveConsumer=C:\Users\rufar\OneDrive 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] ProgramData=C:\ProgramData 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] ProgramW6432=C:\Program Files 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] HOMEPATH=\Users\rufar 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] ProgramFiles=C:\Program Files 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] PUBLIC=C:\Users\Public 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] windir=C:\WINDOWS 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] =::=::\ 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] ZES_ENABLE_SYSMAN=1 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] OneDriveCommercial=C:\Users\rufar\OneDrive - The University of Auckland 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] LOCALAPPDATA=C:\Users\rufar\AppData\Local 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] USERDOMAIN=UOA_LAPTOP-RMAN 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] LOGONSERVER=\\UOA_LAPTOP-RMAN 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] RTXSG_ROOT=C:\OPAL-RT\RT-XSG\v3.3.6.811 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] MMC_ROOT=C:\OPAL-RT\MMC\v2.9.0 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] OneDrive=C:\Users\rufar\OneDrive - The University of Auckland 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] APPDATA=C:\Users\rufar\AppData\Roaming 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] EFPGASIM_ROOT=C:\OPAL-RT\eFPGASIM\v2.14.1.61 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] CommonProgramFiles=C:\Program Files\Common Files 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] Path=C:/OPAL-RT/RT-LAB/2023.2.1/common/ui/jre/bin/server;C:/OPAL-RT/RT-LAB/2023.2.1/common/ui/jre/bin;C:/OPAL-RT/RT-LAB/2023.2.1/common/ui/jre/lib/amd64;C:\Program Files\Eclipse Adoptium\jdk-17.0.8.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\cygwin64\bin;C:\Program Files\CMake\bin;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\MATLAB\R2023a\bin;c:\opal-rt\rt-lab\2023.2.1\common\bin;C:\Users\rufar\appdata\local\microsoft\windowsapps;;c:\users\rufar\appdata\local\programs\microsoft vs code\bin;c:\intelfpga\18.1\modelsim_ase\win32aloem;C:\OPAL-RT\RT-LAB\2023.2.1; 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] OS=Windows_NT 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] COMPUTERNAME=UOA_LAPTOP-RMAN 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] RTEVENTS_ROOT=C:\OPAL-RT\RT-EVENTS\v4.7.4.48 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] PROCESSOR_REVISION=8c01 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] CommonProgramW6432=C:\Program Files\Common Files 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] ComSpec=C:\WINDOWS\system32\cmd.exe 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] SystemRoot=C:\WINDOWS 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] TEMP=C:\Users\rufar\AppData\Local\Temp 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] HOMEDRIVE=C: 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] USERPROFILE=C:\Users\rufar 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] TMP=C:\Users\rufar\AppData\Local\Temp 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] NUMBER_OF_PROCESSORS=8 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] EFC_5240=1 
+[2023-09-07 16:06:21] [ALL    ] [ Category: INIT ] RTLAB_ROOT=C:\OPAL-RT\RT-LAB\2023.2.1 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ]  ******************************************************************************** 
+[2023-09-07 16:06:21] [INFO   ] [ Category: INIT ] [Initialization] Initialize connection to configuration controller. 
+[2023-09-07 16:06:22] [INFO   ] [ Category: INIT ] [Initialization] Take Control on Configuration Controller. 
+[2023-09-07 16:06:22] [INFO   ] [ Category: INIT ] [Initialization] Set Controller of configuraiton in auto control mode. 
+[2023-09-07 16:06:22] [INFO   ] [ Category: INIT ] [Initialization] Connection ok to Controller of configuration. 
+[2023-09-07 16:06:22] [INFO   ] [ Category: TARGET ] [TargetImpl/refreshRtlabSetupStatus]  TARGET initialized : localhost 
+[2023-09-07 16:06:22] [INFO   ] [ Category: INIT ] [Initialization] Connection Status to Controller of Configuration : Connected 
+[2023-09-07 16:06:22] [INFO   ] [ Category: INIT ] [Initialization] Start creating and running workbench 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ] [Initialization] Configure PyDev Plugins 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ] [Initialization] PydevConfigurer/configure - Interpreter configured : C:/OPAL-RT/RT-LAB/2023.2.1/python 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ]  ******************************************************************************** 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ]  Hook available for opening a project: 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ]   - keep_it_open : Force to open the project at start of RT-LAB. 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ]   - use_persistent_panels : Force to use persistent object for restoring LabView panels. Allows to keep detach windows. 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ] [Initialization] Start creating dataModelWorkspace 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ] [Initialization] Workspace created, start to fill it with current available projects 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ] [Initialization] Start collecting ProjectsTemplatesFiles 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ] [Initialization] Workspace Populated 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ] [Initialization] Start Active Projects Listener 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ]  ******************************************************************************** 
+[2023-09-07 16:06:27] [INFO   ] [ Category: INIT ] [Initialization] Project 'RaviDFG' - should be opened : false 
+[2023-09-07 16:06:28] [INFO   ] [ Category: TARGET ] [Initialization] Start TargetNotificationObserver initialization 
+[2023-09-07 16:06:28] [INFO   ] [ Category: TARGET ]  [Initialization] TargetNotificationObserver/register - Try to register 
+[2023-09-07 16:06:28] [INFO   ] [ Category: TARGET ] [Initialization] TargetNotificationObserver initialized 
+[2023-09-07 16:06:30] [INFO   ] [ Category: INIT ] [Initialization] ProjectsTemplatesFiles collected 
+[2023-09-07 16:06:49] [INFO   ] [ Category: INIT ] [Initialization] RtlabResourceManager/addProject - 'RaviDFG' -> Add project 
+[2023-09-07 16:06:49] [INFO   ] [ Category: INIT ] [Initialization] RtlabResourceManager/addProject - 'RaviDFG' -> Create data model. 
+[2023-09-07 16:06:49] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/open - 'RaviDFG' -> Send 'CMD_OPEN' to the MetaController 
+[2023-09-07 16:06:51] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/open - 'RaviDFG' -> Controller started 
+[2023-09-07 16:06:51] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/open - 'RaviDFG' -> Has System Control : true 
+[2023-09-07 16:06:51] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/open - 'RaviDFG' -> Has Parameter Control : true 
+[2023-09-07 16:06:51] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/open - 'RaviDFG' -> Has Configuration Control : true 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] RtlabResourceManager/addProject - 'RaviDFG' -> Initialize ConfigFolderImpl object 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] RtlabResourceManager/addProject - 'RaviDFG' -> Initialize ConfigFolderImpl object done 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] RtlabResourceManager/addProject - 'RaviDFG' -> Check if configuration must be loaded 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] RtlabResourceManager/addProject - 'RaviDFG' -> Configuration has not been reloaded 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/initialize - 'RaviDFG' -> Initialization start 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/initialize - Project 'RaviDFG' - properties (.project) 'keep_it_open' : false - When set to true, project is automatically opened at start of RT-LAB 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/initialize - Project 'RaviDFG' - properties (.project) 'use_persistent_panels' : false - When set to true, .open_panels is not used. 'keep_it_open' is forced to true, as persistent element is only available when we don't close the project. 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/initialize - 'RaviDFG' -> Initialize Models and SubSystems 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/initialize - 'RaviDFG' -> Initialize IO 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/initialize - 'RaviDFG' -> Initialize Recorder 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/initialize - 'RaviDFG' -> Initialize Aliases 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/initialize - 'RaviDFG' -> Open panels 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/initialize - 'RaviDFG' -> Start Project Watchdog (Controller every seconds the presence of the controller otherwise, close the project) 
+[2023-09-07 16:06:52] [ALL    ] [ Category: INIT ] [NotificationListener] ConfigFolderImpl/registerToNotificationCenter - Project 'RaviDFG' has been registered to notification center. 
+[2023-09-07 16:06:52] [INFO   ] [ Category: INIT ] [Initialization] ProjectImpl/initialize - 'RaviDFG' -> Initialization done 
+[2023-09-07 16:19:31] [INFO   ] [ Category: EXCEPTION ] [Exception] RtlabException/ThrowRtlabException - ApiFunction=DisplayInformation, rc=ENOENT(2), message=No compiler found for this platform.
+Please run the script 'C:\OPAL-RT\RT-LAB\2023.2.1\\mingw\mingw_download.bat' located in the mingw folder,
+or refer to the RT-LAB documentation and select another compatible compiler. 
+[2023-09-07 16:19:31] [INFO   ] [ Category: EXCEPTION ] [Exception] logStackStrace - Start to dump current stack trace:  
+[2023-09-07 16:19:31] [INFO   ] [ Category: EXCEPTION ] [Exception] 	com.opalrt.rtlab.api.exceptions.RtlabException.ThrowRtlabException(Unknown Source) 
+[2023-09-07 16:19:31] [INFO   ] [ Category: EXCEPTION ] [Exception] 	com.opalrt.rtlab.datamodel.impl.ModelImpl.compile(Unknown Source) 
+[2023-09-07 16:19:31] [INFO   ] [ Category: EXCEPTION ] [Exception] 	com.opalrt.rtlab.ui.display.handler.CompileHandler$1.run(Unknown Source) 
+[2023-09-07 16:19:31] [INFO   ] [ Category: EXCEPTION ] [Exception] 	org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) 
+[2023-09-07 16:19:31] [INFO   ] [ Category: EXCEPTION ] [Exception] logStackStrace - done 
+[2023-09-07 16:19:45] [INFO   ] [ Category: EXCEPTION ] [Exception] RtlabException/ThrowRtlabException - ApiFunction=DisplayInformation, rc=ENOENT(2), message=No compiler found for this platform.
+Please run the script 'C:\OPAL-RT\RT-LAB\2023.2.1\\mingw\mingw_download.bat' located in the mingw folder,
+or refer to the RT-LAB documentation and select another compatible compiler. 
+[2023-09-07 16:19:45] [INFO   ] [ Category: EXCEPTION ] [Exception] logStackStrace - Start to dump current stack trace:  
+[2023-09-07 16:19:45] [INFO   ] [ Category: EXCEPTION ] [Exception] 	com.opalrt.rtlab.api.exceptions.RtlabException.ThrowRtlabException(Unknown Source) 
+[2023-09-07 16:19:45] [INFO   ] [ Category: EXCEPTION ] [Exception] 	com.opalrt.rtlab.datamodel.impl.ModelImpl.compile(Unknown Source) 
+[2023-09-07 16:19:45] [INFO   ] [ Category: EXCEPTION ] [Exception] 	com.opalrt.rtlab.ui.display.handler.CompileHandler$1.run(Unknown Source) 
+[2023-09-07 16:19:45] [INFO   ] [ Category: EXCEPTION ] [Exception] 	org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) 
+[2023-09-07 16:19:45] [INFO   ] [ Category: EXCEPTION ] [Exception] logStackStrace - done 
+[2023-09-07 16:40:15] [INFO   ] [ Category: EXCEPTION ] [Exception] RtlabException/ThrowRtlabException - ApiFunction=DisplayInformation, rc=OP_API_ENO_DEVELOP_LICENSE(28684), message=The license on target does not allow you to compile a model. Load license: error opening license file! (C:\OPAL-RT\LicServer\opallicense.bin) 
+[2023-09-07 16:40:15] [INFO   ] [ Category: EXCEPTION ] [Exception] logStackStrace - Start to dump current stack trace:  
+[2023-09-07 16:40:15] [INFO   ] [ Category: EXCEPTION ] [Exception] 	com.opalrt.rtlab.api.exceptions.RtlabException.ThrowRtlabException(Unknown Source) 
+[2023-09-07 16:40:15] [INFO   ] [ Category: EXCEPTION ] [Exception] 	com.opalrt.rtlab.datamodel.impl.ModelImpl.compile(Unknown Source) 
+[2023-09-07 16:40:15] [INFO   ] [ Category: EXCEPTION ] [Exception] 	com.opalrt.rtlab.ui.display.handler.CompileHandler$1.run(Unknown Source) 
+[2023-09-07 16:40:15] [INFO   ] [ Category: EXCEPTION ] [Exception] 	org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) 
+[2023-09-07 16:40:15] [INFO   ] [ Category: EXCEPTION ] [Exception] logStackStrace - done 
+[2023-09-08 15:22:05] [INFO   ] [ Category: CLOSE ] [Closing] PreCloseHandler/execute - START - Called from clicking on the X in the top right corner of RT-LAB 
+[2023-09-08 15:22:05] [INFO   ] [ Category: CLOSE ] [Closing] RtlabResourceManager/closeProjects - Start Closing all opened projects 
+[2023-09-08 15:22:05] [INFO   ] [ Category: CLOSE ] [Closing] RtlabResourceManager/closeProject - Start to Close project : RaviDFG 
+[2023-09-08 15:22:07] [INFO   ] [ Category: OPALONE ] [OpalOne] controlDashBoard - Close DashBoard for project 'RaviDFG' (llpPath='C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\RaviDFG.llp') 
+[2023-09-08 15:22:07] [INFO   ] [ Category: OPALONE ] [OpalOne] getSeverInfo - try to get ServerInfo 
+[2023-09-08 15:22:12] [INFO   ] [ Category: OPALONE ] [OpalOne] sendGetHTTPRequest - Request sent to OpalOne : GET http://localhost:60780/api/server/info
+ Content-Type: application/json; charset=UTF-8 accept: application/json Client-Type: RT-LAB Client-Version: v2023.2.1.578 
+[2023-09-08 15:22:12] [INFO   ] [ Category: OPALONE ] [OpalOne] readResponse - Response received from OpalOne : {"serverType":"PRODUCTION","serverVersion":"0.26.0+release_hypersim_2023_2","databaseVersion":123,"ipAddress":"192.168.68.53","applicationPath":"C:\\OPAL-RT\\OpalOne\\v1.2.0.17\\bin\\OpalOne.exe","modelConverterPath":"C:\\OPAL-RT\\OpalOne\\v1.2.0.17\\server\\modelconverter.exe"} 
+[2023-09-08 15:22:12] [INFO   ] [ Category: OPALONE ] [OpalOne] getSeverInfo - get parameter 'applicationPath' : C:\OPAL-RT\OpalOne\v1.2.0.17\bin\OpalOne.exe 
+[2023-09-08 15:22:12] [INFO   ] [ Category: OPALONE ] [OpalOne] getSeverInfo - get parameter 'databaseVersion' : 123 
+[2023-09-08 15:22:12] [INFO   ] [ Category: OPALONE ] [OpalOne] sendPostHTTPRequest - Request sent to OpalOne : POST http://localhost:60780/api/projects/resolve
+ Content-Type: application/json; charset=UTF-8 accept: application/json Client-Type: RT-LAB Client-Version: v2023.2.1.578 - body={"paths":["C:/Users/rufar/OneDrive - The University of Auckland/COMPSYS 700A/P4P_2023_Proj42/modelling_Practise/Ravi_Version/OPAL_RT/RaviDFG/RaviDFG.llp"]} 
+[2023-09-08 15:22:12] [INFO   ] [ Category: OPALONE ] [OpalOne] readResponse - Response received from OpalOne : {"ids":["c6f42ae4-eea1-476a-9888-973f98b6160f"]} 
+[2023-09-08 15:22:12] [INFO   ] [ Category: OPALONE ] [OpalOne] getProjectId - get parameter 'ids' : ["c6f42ae4-eea1-476a-9888-973f98b6160f"] 
+[2023-09-08 15:22:12] [INFO   ] [ Category: OPALONE ] [OpalOne] controlDashBoard - Run command : C:\OPAL-RT\OpalOne\v1.2.0.17\bin\OpalOne.exe --use-app-server --RTLAB -p c6f42ae4-eea1-476a-9888-973f98b6160f --force-rtlab-version v2023.2.1.578 --close 
+[2023-09-08 15:22:35] [ALL    ] [ Category: INIT ] [NotificationListener] ConfigFolderImpl/unregisterFromNotificationCenter - Project 'RaviDFG' has been unregistered from notification center. 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] RtlabResourceManager/closeProject - Wait unregistration of LabView panels from the controller 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] RtlabResourceManager/closeProject - Remove listener 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] RtlabResourceManager/closeProject - Close data model project into Workspace 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] ProjectExplorerContentProvider/propertyChange - Refresh iproject to close it and removeProjectListener 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] RtlabResourceManager/closeProject - Close Project, and Connection to the controller 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] 'RaviDFG' -> Start Closing project, check if configuration must be saved. 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] 'RaviDFG' -> executeSaveConfigurationDialog. 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] executeSaveConfigurationDialog - RaviDFG ; ConfigMustBeSaved=false 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] 'RaviDFG' -> Take connection and close Models. 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] 'RaviDFG' -> onProjectClose() 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] 'RaviDFG' -> uninitiliazied internal attributes. 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] 'RaviDFG' -> Close connection to the controller. 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] 'RaviDFG' -> Connection Closed. 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] RtlabResourceManager/closeProject - Prepare RT-LAB Closing 
+[2023-09-08 15:22:35] [INFO   ] [ Category: CLOSE ] [Closing] Project  RaviDFG still active : false 
+[2023-09-08 15:22:36] [INFO   ] [ Category: CLOSE ] [Closing] ProjectImpl/WaitUntilControllerIsDown - Project 'RaviDFG' - Socket timeout when trying to reach : ip=172.23.178.137 ; port=25251 
+[2023-09-08 15:22:36] [INFO   ] [ Category: CLOSE ] [Closing] Project RaviDFG closed. 
+[2023-09-08 15:22:36] [INFO   ] [ Category: CLOSE ] [Closing] RtlabResourceManager/closeProjects - Start Closing dataModelWorkspace. 
+[2023-09-08 15:22:36] [INFO   ] [ Category: CLOSE ] [Closing] RtlabResourceManager/closeProjects - Workspace closed. 

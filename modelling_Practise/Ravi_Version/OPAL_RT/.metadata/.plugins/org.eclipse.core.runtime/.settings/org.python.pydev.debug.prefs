@@ -1,0 +1,2 @@
+INITIAL_INTERPRETER_CMDS=import sys, os;sys.path.append(os.environ['RTLAB_ROOT'] + '/common/bin');sys.path.append(os.environ['RTLAB_ROOT'] + '/common/python');import RtlabApi, RtlabApi as r;print("Python\: %s" % sys.version);print("RT-LAB\: %s" % r.GetRtlabVersion()[0]);\n
+eclipse.preferences.version=1

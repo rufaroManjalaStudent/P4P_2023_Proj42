@@ -1,0 +1,6 @@
+CHECK_CONSISTENT_ON_STARTUP=false
+CHECK_PREFERRED_PYDEV_SETTINGS=false
+INTERPRETERS_CHECKED_ONCE=true
+INTERPRETER_PATH_NEW=<xml>\n<name>Python390</name>\n<version>3.9</version>\n<executable>C\:\\OPAL-RT\\RT-LAB\\2023.2.1\\python\\python.exe</executable>\n<lib>C\:\\OPAL-RT\\RT-LAB\\2023.2.1\\python</lib>\n<lib>C\:\\OPAL-RT\\RT-LAB\\2023.2.1\\python\\DLLs</lib>\n<lib>C\:\\OPAL-RT\\RT-LAB\\2023.2.1\\python\\lib</lib>\n<lib>C\:\\OPAL-RT\\RT-LAB\\2023.2.1\\python\\lib\\site-packages</lib>\n<lib>C\:\\OPAL-RT\\RT-LAB\\2023.2.1\\python\\lib\\site-packages\\Pythonwin</lib>\n<lib>C\:\\OPAL-RT\\RT-LAB\\2023.2.1\\python\\lib\\site-packages\\win32</lib>\n<lib>C\:\\OPAL-RT\\RT-LAB\\2023.2.1\\python\\lib\\site-packages\\win32\\lib</lib>\n<lib>C\:\\OPAL-RT\\RT-LAB\\2023.2.1\\python\\lib\\site-packages\\wx-3.0-msw</lib>\n<lib>C\:\\OPAL-RT\\RT-LAB\\2023.2.1\\common\\bin</lib>\n<lib>C\:\\OPAL-RT\\RT-LAB\\2023.2.1\\common\\python</lib>\n</xml>&&&&&
+UPDATE_INTERPRETER_INFO_ON_FILESYSTEM_CHANGES=false
+eclipse.preferences.version=1

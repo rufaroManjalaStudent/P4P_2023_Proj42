@@ -12,17 +12,17 @@ d_FLTR = [10.000, 0.000, 0.7333, 0.1667, 0.0033, 0.0150];
 d_Cdc = 2; % Converter capacitor
 
 %DFIG-MSC Controller Parameters
-d_MSC_IL1_kp = -0.23; d_MSC_IL1_ki = -3;
-d_MSC_IL2_kp = -0.23; d_MSC_IL2_ki = -3;
-d_MSC_OL1_kp = 0; d_MSC_OL1_ki = -60;
-d_MSC_OL2_kp = 0; d_MSC_OL2_ki = 90;
+d_MSC_IL1_kp = -0.23; d_MSC_IL1_kd = -3;
+d_MSC_IL2_kp = -0.23; d_MSC_IL2_kd = -3;
+d_MSC_OL1_kp = 0; d_MSC_OL1_kd = -60;
+d_MSC_OL2_kp = 0; d_MSC_OL2_kd = 90;
 
 %DFIG-GSC Controller Parameters
 
-d_GSC_IL1_kp = 0.3; d_GSC_IL1_ki = 200;
-d_GSC_IL2_kp = 0.3; d_GSC_IL2_ki = 200;
-d_GSC_OL1_kp = -22; d_GSC_OL1_ki = -870;
-d_GSC_OL2_kp = 0; d_GSC_OL2_ki = -60;
+d_GSC_IL1_kp = 0.3; d_GSC_IL1_kd = 200;
+d_GSC_IL2_kp = 0.3; d_GSC_IL2_kd = 200;
+d_GSC_OL1_kp = -22; d_GSC_OL1_kd = -870;
+d_GSC_OL2_kp = 0; d_GSC_OL2_kd = -60;
 
 %Read filter parameters from FLTR vector
 d_Ri= 0.0;
@@ -64,9 +64,9 @@ d_Tr = d_Lrr/d_Rr;
 %STEP 3 BEGINS: Initialization of State variables for generator,
 %Converter and Filter
 
-Vdfig = bus_sol(Dmachs,2).*exp(1i*bus_sol(Dmachs,3)*pi/180);
-Pdfig = bus_sol(Dmachs, 4);
-Qdfig = bus_sol(Dmachs, 5);
+Vdfig = bus_sln(Dmachs,2).*exp(1i*bus_sln(Dmachs,3)*pi/180);
+Pdfig = bus_sln(Dmachs, 4);
+Qdfig = bus_sln(Dmachs, 5);
 d_vsq = real(Vdfig); d_vsd = imag(Vdfig);
 d_Theta = angle(Vdfig);
 
@@ -75,7 +75,7 @@ xdfig = zeros(size(Dmachs,1),15);
         xdfig0 = ones(1,15);
     if Pdfig(d_index) <1 % If below rated speed
             
-% The function isolve is used to solve set of SSCs described in the
+% The function solve is used to slnve set of SSCs described in the
 %function init_dfig_mpt. The output is stored in xdfig variable
 
         xdfig(d_index,:) = fsolve(@(x)...
@@ -83,7 +83,7 @@ init_dfig_mpt(x,Vdfig(d_index),Pdfig(d_index),...
 Qdfig(d_index),data_DF,d_FLTR),...
             xdfig0, optimset('TolFun',1e-16,'TolX',1e-16));
     else
-%The function fsolve is used to solve set of SSCs described in the
+%The function fslnve is used to slnve set of SSCs described in the
 %function init_dfig_cpt. The output is stored in xdfig variable
 
             xdfig(d_index,:) = fsolve(@(x)...

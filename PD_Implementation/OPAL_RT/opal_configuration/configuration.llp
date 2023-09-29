@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <General>
+        <att_name>Project</att_name>
+        <att_description>This is a project!</att_description>
+        <att_ip_address>172.23.163.207:25252</att_ip_address>
+        <att_hashcode>5BE9ADA9-0C7D-427B-96DD-0A2CA59BB7F7</att_hashcode>
+        <att_autosave>ON</att_autosave>
+        <att_project_locked>0</att_project_locked>
+        <att_filename>C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\opal_configuration\configuration.llp</att_filename>
+    </General>
+    <Optionals>
+        <att_donotask_loadcfg_at_prjopen>0</att_donotask_loadcfg_at_prjopen>
+        <att_matlab_compile_outprocess>OFF</att_matlab_compile_outprocess>
+    </Optionals>
+    <Models/>
+</Project>

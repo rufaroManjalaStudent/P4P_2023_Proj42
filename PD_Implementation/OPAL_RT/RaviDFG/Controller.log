@@ -1,0 +1,277 @@
+2023-9-1 16h17m9s:Using default NodeSessions limit.  Limit set to 1024.
+2023-9-1 16h17m9s: >>>> SessionRoot::initialize port 0
+2023-9-1 16h17m9s:Begin to register on OpalRoot
+2023-9-1 16h17m9s:Registered on OpalRoot, port 25253
+2023-9-1 16h17m9s:Loading services from "C:/OPAL-RT/RT-LAB/2023.2.1/common/bin/x64/Services"
+2023-9-1 16h17m9s:  Plugin "DataAcquisition": services informations retrieved
+2023-9-1 16h17m9s:  Plugin "DriverIdentification": services informations retrieved
+2023-9-1 16h17m9s:  Plugin "Dummy": services informations retrieved
+2023-9-1 16h17m9s:  Plugin "ePHASORSIM": services informations retrieved
+2023-9-1 16h17m9s:  Plugin "HEI": services informations retrieved
+2023-9-1 16h17m9s:  Plugin "IEC104": services informations retrieved
+2023-9-1 16h17m9s:  Plugin "Matlab": services informations retrieved
+2023-9-1 16h17m9s:  Plugin "MODBUS": services informations retrieved
+2023-9-1 16h17m9s:  Plugin "Parameters": services informations retrieved
+2023-9-1 16h17m9s:  Plugin "Pickering-41-752": services informations retrieved
+2023-9-1 16h17m9s:  Plugin "RFM": services informations retrieved
+2023-9-1 16h17m9s:  Plugin "SimulationSetup": services informations retrieved
+2023-9-1 16h17m9s:  Plugin "Web": services informations retrieved
+2023-9-1 16h17m10s:Root initialized: 172.23.163.207:25253/resources/root
+2023-9-1 16h17m10s:Service Web/Server found
+2023-9-1 16h17m10s:Initialization done
+2023-9-1 16h17m10s:ControllerMain.cpp------- NEW CONTROLLER STARTED (pid 20872) ------
+2023-9-1 16h17m10s:Controller.cppnew client: 10296
+2023-9-1 16h17m10s:CClient.cppCreating new client ID: 10048
+2023-9-1 16h17m10s:CClient.cppclientThread started with port:1268
+2023-9-1 16h17m10s:Instance ID = 0
+2023-9-1 16h17m10s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 2044
+2023-9-1 16h17m10s:Service SimulationSetup/SimulationSetup found
+2023-9-1 16h17m10s:No SyncExchangerRegistry found at C:/Users/rufar/OneDrive - The University of Auckland/COMPSYS 700A/P4P_2023_Proj42/modelling_Practise/Ravi_Version/OPAL_RT/RaviDFG/configurations/SyncExchangerRegistry
+2023-9-1 16h17m10s:[UniconComm] call POST /projects/initialize
+2023-9-1 16h17m10s:Controller.cppnew client: 10296
+2023-9-1 16h17m10s:CClient.cppCreating new client ID: 10632
+2023-9-1 16h17m10s:CClient.cppclientThread started with port:1452
+2023-9-1 16h17m10s:Instance ID = 104
+2023-9-1 16h17m10s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 23788
+2023-9-1 16h17m10s:[UniconComm] call POST /projects/initialize
+2023-9-1 16h17m10s:[CurlComm][FAILED] Error perform: Failed initialization
+2023-9-1 16h17m10s:Controller.cppRemoving client: 10632
+2023-9-1 16h17m10s:Controller.cppSuccessful removal of client: 10632
+2023-9-1 16h17m10s:CClient.cpp  clientThread exit. ThreadParam = 0x3aa1870
+2023-9-1 16h17m10s:[UniconComm] initialize DONE
+2023-9-1 16h17m10s:Controller.cppnew client: 10296
+2023-9-1 16h17m10s:CClient.cppCreating new client ID: 19092
+2023-9-1 16h17m10s:CClient.cppclientThread started with port:1524
+2023-9-1 16h17m10s:Instance ID = 104
+2023-9-1 16h17m10s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 2044
+2023-9-1 16h17m10s:Error opening file C:/ProgramData/OPAL-RT/RT-LAB/v2023.2.1.578/MetaController.state.lock: 2 : The system cannot find the file specified.
+
+2023-9-1 16h17m10s:ControllerHandleRequest.cpppClient->notifCommSock = 1416
+2023-9-1 16h17m10s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,1026
+2023-9-1 16h17m10s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,1009
+2023-9-1 16h17m10s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,2015
+2023-9-1 16h17m10s:[UniconComm] call POST /projects/{project_id}/sync
+2023-9-1 16h17m10s:Controller.cppnew client: 10296
+2023-9-1 16h17m10s:CClient.cppCreating new client ID: 23776
+2023-9-1 16h17m10s:CClient.cppclientThread started with port:1564
+2023-9-1 16h17m10s:Instance ID = 104
+2023-9-1 16h17m10s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 23788
+2023-9-1 16h17m10s:Controller.cppRemoving client: 23776
+2023-9-1 16h17m10s:Controller.cppSuccessful removal of client: 23776
+2023-9-1 16h17m10s:CClient.cpp  clientThread exit. ThreadParam = 0x3aa1770
+2023-9-1 16h17m11s:Controller.cppnew client: 10296
+2023-9-1 16h17m11s:CClient.cppCreating new client ID: 24396
+2023-9-1 16h17m11s:CClient.cppclientThread started with port:1640
+2023-9-1 16h17m11s:Instance ID = 104
+2023-9-1 16h17m11s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 2044
+2023-9-1 16h18m27s:CIniFileCache.cppSaving RaviDFG.llm because error was detected
+2023-9-1 16h18m27s:Archive.cppArchiveFileToString : will open C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx
+2023-9-1 16h18m27s:Archive.cppArchiveFileToString : C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx opened
+2023-9-1 16h18m27s:WinUtils.cppCould not get the subsystem list. Verify that the model has been compiled.
+2023-9-1 16h18m27s:Controller.cppNOTIFICATION MSG IS: MODEL_NOT_LOADABLE
+2023-9-1 16h18m27s:[UniconComm] call GET project/:id/models
+2023-9-1 16h18m27s:[UniconComm] call POST /projects/{project_id}/sync
+2023-9-1 16h18m27s:Controller.cppNOTIFICATION MSG IS: 216455356602122240
+2023-9-1 16h18m27s:[UniconComm] call POST /projects/{project_id}/sync
+2023-9-1 16h18m27s:ControllerHandleRequest.cpppClient->notifCommSock = 1848
+2023-9-1 16h18m27s:Archive.cppArchiveFileToString : will open C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx
+2023-9-1 16h18m27s:Archive.cppArchiveFileToString : C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx opened
+2023-9-1 16h18m27s:Controller.cppnew client: 10296
+2023-9-1 16h18m27s:CClient.cppCreating new client ID: 9380
+2023-9-1 16h18m27s:CClient.cppclientThread started with port:1860
+2023-9-1 16h18m27s:Instance ID = 104
+2023-9-1 16h18m27s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 23788
+2023-9-1 16h18m27s:Controller.cppNOTIFICATION MSG IS: 
+2023-9-1 16h18m27s:Controller.cppNOTIFICATION MSG IS: 0
+2023-9-1 16h18m27s:Controller.cppnew client: 10296
+2023-9-1 16h18m27s:CClient.cppCreating new client ID: 5584
+2023-9-1 16h18m27s:CClient.cppclientThread started with port:1912
+2023-9-1 16h18m27s:Instance ID = 104
+2023-9-1 16h18m27s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 2044
+2023-9-1 16h18m27s:Controller.cppRemoving client: 9380
+2023-9-1 16h18m27s:Controller.cppSuccessful removal of client: 9380
+2023-9-1 16h18m27s:CClient.cpp  clientThread exit. ThreadParam = 0x3aa2e30
+2023-9-1 16h18m27s:Archive.cppArchiveFileToString : will open C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx
+2023-9-1 16h18m27s:Archive.cppArchiveFileToString : C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx opened
+2023-9-1 16h20m25s:Controller.cppRemoving client: 24396
+2023-9-1 16h20m25s:Controller.cppSuccessful removal of client: 24396
+2023-9-1 16h20m25s:CClient.cpp  clientThread exit. ThreadParam = 0x3aa2550
+2023-9-1 16h20m25s:Controller.cppRemoving client: 10048
+2023-9-1 16h20m25s:Controller.cppSuccessful removal of client: 10048
+2023-9-1 16h20m25s:CClient.cpp  clientThread exit. ThreadParam = 0x3a5a920
+2023-9-1 16h20m25s:Controller.cppRemoving client: 19092
+2023-9-1 16h20m25s:Controller.cppSuccessful removal of client: 19092
+2023-9-1 16h20m25s:CClient.cpp  clientThread exit. ThreadParam = 0x3aa19f0
+2023-9-1 16h20m25s:Controller.cppRemoving client: 5584
+2023-9-1 16h20m25s:ControllerExit.cppterminateControlCommThread, call OpalInitializeSend with ipAddr 172.23.163.207:47392
+2023-9-1 16h20m25s:Controller.cppSuccessful removal of client: 5584
+2023-9-1 16h20m25s:CClient.cpp  clientThread exit. ThreadParam = 0x3aa2dd0
+2023-9-1 16h20m25s:ControllerExit.cppEntering CloseSubControllers
+2023-9-1 16h20m25s:Stopping OpalNode watchdog.
+2023-9-7 16h6m49s:Using default NodeSessions limit.  Limit set to 1024.
+2023-9-7 16h6m49s: >>>> SessionRoot::initialize port 0
+2023-9-7 16h6m49s:Begin to register on OpalRoot
+2023-9-7 16h6m49s:Registered on OpalRoot, port 25251
+2023-9-7 16h6m49s:Loading services from "C:/OPAL-RT/RT-LAB/2023.2.1/common/bin/x64/Services"
+2023-9-7 16h6m49s:  Plugin "DataAcquisition": services informations retrieved
+2023-9-7 16h6m49s:  Plugin "DriverIdentification": services informations retrieved
+2023-9-7 16h6m49s:  Plugin "Dummy": services informations retrieved
+2023-9-7 16h6m49s:  Plugin "ePHASORSIM": services informations retrieved
+2023-9-7 16h6m49s:  Plugin "HEI": services informations retrieved
+2023-9-7 16h6m49s:  Plugin "IEC104": services informations retrieved
+2023-9-7 16h6m49s:  Plugin "Matlab": services informations retrieved
+2023-9-7 16h6m49s:  Plugin "MODBUS": services informations retrieved
+2023-9-7 16h6m49s:  Plugin "Parameters": services informations retrieved
+2023-9-7 16h6m49s:  Plugin "Pickering-41-752": services informations retrieved
+2023-9-7 16h6m49s:  Plugin "RFM": services informations retrieved
+2023-9-7 16h6m49s:  Plugin "SimulationSetup": services informations retrieved
+2023-9-7 16h6m49s:  Plugin "Web": services informations retrieved
+2023-9-7 16h6m49s:Root initialized: 172.23.178.137:25251/resources/root
+2023-9-7 16h6m49s:Service Web/Server found
+2023-9-7 16h6m49s:Initialization done
+2023-9-7 16h6m49s:ControllerMain.cpp------- NEW CONTROLLER STARTED (pid 20180) ------
+2023-9-7 16h6m49s:Controller.cppnew client: 20792
+2023-9-7 16h6m49s:CClient.cppCreating new client ID: 17796
+2023-9-7 16h6m49s:CClient.cppclientThread started with port:1240
+2023-9-7 16h6m49s:Instance ID = 0
+2023-9-7 16h6m49s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 12496
+2023-9-7 16h6m49s:Service SimulationSetup/SimulationSetup found
+2023-9-7 16h6m49s:Archive.cppArchiveFileToString : will open C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx
+2023-9-7 16h6m49s:Archive.cppArchiveFileToString : C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx opened
+2023-9-7 16h6m49s:WinUtils.cppCould not get the subsystem list. Verify that the model has been compiled.
+2023-9-7 16h6m49s:[UniconComm] call POST /projects/initialize
+2023-9-7 16h6m51s:Controller.cppnew client: 20792
+2023-9-7 16h6m51s:CClient.cppCreating new client ID: 17512
+2023-9-7 16h6m51s:CClient.cppclientThread started with port:1552
+2023-9-7 16h6m51s:Instance ID = 102
+2023-9-7 16h6m51s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 19504
+2023-9-7 16h6m51s:[UniconComm] call POST /projects/initialize
+2023-9-7 16h6m51s:[CurlComm][FAILED] Error perform: Failed initialization
+2023-9-7 16h6m51s:Controller.cppRemoving client: 17512
+2023-9-7 16h6m51s:Controller.cppSuccessful removal of client: 17512
+2023-9-7 16h6m51s:CClient.cpp  clientThread exit. ThreadParam = 0x3f04d40
+2023-9-7 16h6m51s:[UniconComm] initialize DONE
+2023-9-7 16h6m51s:Controller.cppnew client: 20792
+2023-9-7 16h6m51s:CClient.cppCreating new client ID: 3128
+2023-9-7 16h6m51s:CClient.cppclientThread started with port:1624
+2023-9-7 16h6m51s:Instance ID = 102
+2023-9-7 16h6m51s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 12496
+2023-9-7 16h6m51s:ControllerHandleRequest.cpppClient->notifCommSock = 1640
+2023-9-7 16h6m52s:ControllerHandleRequest.cpppClient->notifCommSock = 1596
+2023-9-7 16h6m52s:Archive.cppArchiveFileToString : will open C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx
+2023-9-7 16h6m52s:Archive.cppArchiveFileToString : C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx opened
+2023-9-7 16h6m52s:Archive.cppArchiveFileToString : will open C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx
+2023-9-7 16h6m52s:Archive.cppArchiveFileToString : C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx opened
+2023-9-7 16h6m53s:Controller.cppnew client: 20792
+2023-9-7 16h6m53s:CClient.cppCreating new client ID: 16516
+2023-9-7 16h6m53s:CClient.cppclientThread started with port:1740
+2023-9-7 16h6m53s:Instance ID = 102
+2023-9-7 16h6m53s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 12496
+2023-9-7 16h6m53s:Controller.cppnew client: 20792
+2023-9-7 16h6m53s:CClient.cppCreating new client ID: 2924
+2023-9-7 16h6m53s:CClient.cppclientThread started with port:1796
+2023-9-7 16h6m53s:Instance ID = 102
+2023-9-7 16h6m53s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 12496
+2023-9-7 16h7m13s:Controller.cppNOTIFICATION MSG IS: 0
+2023-9-7 16h8m7s:Archive.cppArchiveFileToString : will open C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx
+2023-9-7 16h8m7s:Archive.cppArchiveFileToString : C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx opened
+2023-9-7 16h8m9s:Archive.cppArchiveFileToString : will open C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx
+2023-9-7 16h8m9s:Archive.cppArchiveFileToString : C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx opened
+2023-9-7 16h8m28s:Controller.cppNOTIFICATION MSG IS: 216455356602122240,3007
+2023-9-7 16h12m6s:Controller.cppNOTIFICATION MSG IS: 0
+2023-9-7 16h19m30s:Controller.cppNOTIFICATION MSG IS: MODEL_COMPILING
+2023-9-7 16h19m30s:[UniconComm] call GET project/:id/models
+2023-9-7 16h19m30s:[UniconComm] call POST /models/{model_id}/sync
+2023-9-7 16h19m30s:Compile.cppcompileThread launched with id = 20688
+2023-9-7 16h19m30s:Compile.cppCompilation error: executing doCompileErrExit.
+2023-9-7 16h19m30s:Compile.cppCompilation error: executing doCompileErrExit - 3.
+2023-9-7 16h19m30s:Compile.cppCompilation error: executing doCompileErrExit - 4.
+2023-9-7 16h19m30s:Compile.cppCompilation error: executing doCompileErrExit - 5.
+2023-9-7 16h19m30s:DevEnvNode is 'localhost' (target platform = 2)
+2023-9-7 16h19m30s:Compile.cppCompilation error: executing doCompileErrExit - 6.
+2023-9-7 16h19m30s:Controller.cppNOTIFICATION MSG IS: MODEL_NOT_LOADABLE
+2023-9-7 16h19m30s:[UniconComm] call POST /models/{model_id}/sync
+2023-9-7 16h19m30s:Controller.cppnew client: 20792
+2023-9-7 16h19m30s:CClient.cppCreating new client ID: 16668
+2023-9-7 16h19m30s:CClient.cppclientThread started with port:1888
+2023-9-7 16h19m30s:Instance ID = 102
+2023-9-7 16h19m30s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 19504
+2023-9-7 16h19m30s:Controller.cppNOTIFICATION MSG IS: 
+2023-9-7 16h19m30s:Controller.cppNOTIFICATION MSG IS: 0
+2023-9-7 16h19m30s:Controller.cppnew client: 20792
+2023-9-7 16h19m30s:CClient.cppCreating new client ID: 15916
+2023-9-7 16h19m30s:CClient.cppclientThread started with port:1936
+2023-9-7 16h19m30s:Instance ID = 102
+2023-9-7 16h19m30s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 12496
+2023-9-7 16h19m30s:Controller.cppNOTIFICATION MSG IS: 
+2023-9-7 16h19m30s:Controller.cppNOTIFICATION MSG IS: 0
+2023-9-7 16h19m31s:Compile.cppCompilation Thread closed.
+2023-9-7 16h19m31s:[UniconComm] call POST /models/{model_id}/sync
+2023-9-7 16h19m31s:Controller.cppNOTIFICATION MSG IS: 
+2023-9-7 16h19m31s:Controller.cppNOTIFICATION MSG IS: 0
+2023-9-7 16h19m31s:Archive.cppArchiveFileToString : will open C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx
+2023-9-7 16h19m31s:Archive.cppArchiveFileToString : C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx opened
+2023-9-7 16h19m44s:Controller.cppNOTIFICATION MSG IS: MODEL_COMPILING
+2023-9-7 16h19m44s:[UniconComm] call POST /models/{model_id}/sync
+2023-9-7 16h19m44s:Compile.cppcompileThread launched with id = 14492
+2023-9-7 16h19m44s:Compile.cppCompilation error: executing doCompileErrExit.
+2023-9-7 16h19m44s:Compile.cppCompilation error: executing doCompileErrExit - 3.
+2023-9-7 16h19m44s:Compile.cppCompilation error: executing doCompileErrExit - 4.
+2023-9-7 16h19m44s:Compile.cppCompilation error: executing doCompileErrExit - 5.
+2023-9-7 16h19m44s:DevEnvNode is 'localhost' (target platform = 2)
+2023-9-7 16h19m44s:Compile.cppCompilation error: executing doCompileErrExit - 6.
+2023-9-7 16h19m44s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2023-9-7 16h19m44s:Controller.cppNOTIFICATION MSG IS: MODEL_NOT_LOADABLE
+2023-9-7 16h19m44s:[UniconComm] call POST /models/{model_id}/sync
+2023-9-7 16h19m44s:Controller.cppNOTIFICATION MSG IS: 
+2023-9-7 16h19m44s:Controller.cppNOTIFICATION MSG IS: 0
+2023-9-7 16h19m45s:Compile.cppCompilation Thread closed.
+2023-9-7 16h19m45s:[UniconComm] call POST /models/{model_id}/sync
+2023-9-7 16h19m45s:Controller.cppNOTIFICATION MSG IS: 
+2023-9-7 16h19m45s:Controller.cppNOTIFICATION MSG IS: 0
+2023-9-7 16h19m45s:Archive.cppArchiveFileToString : will open C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx
+2023-9-7 16h19m45s:Archive.cppArchiveFileToString : C:\Users\rufar\OneDrive - The University of Auckland\COMPSYS 700A\P4P_2023_Proj42\modelling_Practise\Ravi_Version\OPAL_RT\RaviDFG\models\RaviDFG\RaviDFG.slx opened
+2023-9-7 16h40m14s:Controller.cppNOTIFICATION MSG IS: MODEL_COMPILING
+2023-9-7 16h40m14s:[UniconComm] call POST /models/{model_id}/sync
+2023-9-7 16h40m15s:Compile.cppcompileThread launched with id = 5432
+2023-9-7 16h40m15s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2023-9-7 16h40m15s:Controller.cppNOTIFICATION MSG IS: Preparing model
+2023-9-7 16h40m15s:Compile.cppCheckLicenseCompileHost: Failed to load license stored on host.
+2023-9-7 16h40m15s:Compile.cppCompilation error: executing doCompileErrExit.
+2023-9-7 16h40m15s:Compile.cppCompilation error: executing doCompileErrExit - 3.
+2023-9-7 16h40m15s:Compile.cppCompilation error: executing doCompileErrExit - 4.
+2023-9-7 16h40m15s:Compile.cppCompilation error: executing doCompileErrExit - 5.
+2023-9-7 16h40m15s:DevEnvNode is 'localhost' (target platform = 2)
+2023-9-7 16h40m15s:Compile.cppCompilation error: executing doCompileErrExit - 6.
+2023-9-7 16h40m15s:Controller.cppNOTIFICATION MSG IS: MODEL_NOT_LOADABLE
+2023-9-7 16h40m15s:[UniconComm] call POST /models/{model_id}/sync
+2023-9-7 16h40m15s:Controller.cppNOTIFICATION MSG IS: 
+2023-9-7 16h40m15s:Controller.cppNOTIFICATION MSG IS: 0
+2023-9-7 16h40m15s:Compile.cppCompilation Thread closed.
+2023-9-7 16h40m15s:[UniconComm] call POST /models/{model_id}/sync
+2023-9-7 16h40m15s:Controller.cppNOTIFICATION MSG IS: 
+2023-9-7 16h40m15s:Controller.cppNOTIFICATION MSG IS: 0
+2023-9-7 21h36m5s:Controller.cppRemoving client: 16668
+2023-9-7 21h36m5s:Controller.cppSuccessful removal of client: 16668
+2023-9-7 21h36m6s:CClient.cpp  clientThread exit. ThreadParam = 0x3f06940
+2023-9-8 15h22m35s:Controller.cppRemoving client: 2924
+2023-9-8 15h22m35s:Controller.cppSuccessful removal of client: 2924
+2023-9-8 15h22m35s:CClient.cpp  clientThread exit. ThreadParam = 0x3f05c60
+2023-9-8 15h22m35s:Controller.cppRemoving client: 17796
+2023-9-8 15h22m35s:Controller.cppSuccessful removal of client: 17796
+2023-9-8 15h22m35s:CClient.cpp  clientThread exit. ThreadParam = 0x3e3b270
+2023-9-8 15h22m35s:Controller.cppRemoving client: 3128
+2023-9-8 15h22m35s:Controller.cppSuccessful removal of client: 3128
+2023-9-8 15h22m35s:CClient.cpp  clientThread exit. ThreadParam = 0x3f05f60
+2023-9-8 15h22m35s:Controller.cppRemoving client: 16516
+2023-9-8 15h22m35s:Controller.cppSuccessful removal of client: 16516
+2023-9-8 15h22m35s:CClient.cpp  clientThread exit. ThreadParam = 0x3f06140
+2023-9-8 15h22m35s:Controller.cppRemoving client: 15916
+2023-9-8 15h22m35s:ControllerExit.cppterminateControlCommThread, call OpalInitializeSend with ipAddr 172.23.178.137:47389
+2023-9-8 15h22m35s:ControllerExit.cppEntering CloseSubControllers
+2023-9-8 15h22m35s:Stopping OpalNode watchdog.
+2023-9-8 15h22m57s:Controller.cppSuccessful removal of client: 15916
+2023-9-8 15h22m57s:CClient.cpp  clientThread exit. ThreadParam = 0x3f06500
+2023-9-8 15h22m58s:Error: no reachable IP has been found out of [172.23.178.137:25251]

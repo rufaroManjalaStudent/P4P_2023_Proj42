@@ -18,14 +18,14 @@ Vdfig = 0.9794+ 1i*0.3983;
 d_vsq= real (Vdfig);    d_vsd = imag (Vdfig);
 d_Theta = angle(Vdfig);
 
-disq = 0.8544;  d_isd =  0.2454;
-dirq = -0.9629; d_ird = -0.0020;
+d_isq = 0.8544;  d_isd =  0.2454;
+d_irq = -0.9629; d_ird = -0.0020;
 d_vrq = 0.0357; d_vrd = 0.0154;
 
 %Values associated with Filter
 d_Ri= 0.0; d_Rg= 0.0; d_Rc= 0.7333; d_Li = 0.1667;
 d_Lg= 0.0033; d_Cf = 0.0150;
-diiq = -0.0361; d_iid = 0.0024; 
+d_iiq = -0.0361; d_iid = 0.0024; 
 d_igq =  -0.0303; d_igd = -0.0123;
 d_viq = 0.9790; d_vid = 0.3922; 
 d_vcq = 0.9837; d_vcd = 0.3874;
@@ -36,7 +36,7 @@ d_Cdc = 2; d_VDC = 1.5; d_Qfilter = 0; d_Qs = 0.1;
 d_MSC_IL1_kp = -0.23;   d_MSC_IL1_ki = -3;   d_MSC_IL1_iv = 0.0389;
 d_MSC_IL2_kp = -0.23;   d_MSC_IL2_ki = -3;   d_MSC_IL2_iv = 0.00078156;
 d_MSC_OL1_kp = 0;       d_MSC_OL1_ki = -60;  d_MSC_OL1_iv = -0.8927; 
-d_MSC_OL2_kp = 0;       d_MSC_OL2_ki=90;     d_MSC_OL2_iv  =  0.3610;
+d_MSC_OL2_kp = 0;       d_MSC_OL2_ki = 90;   d_MSC_OL2_iv  =  0.3610;
 
 d_GSC_IL1_kp = 0.3; d_GSC_IL1_ki= 200;  d_GSC_IL1_iv = 1.0546; 
 d_GSC_IL2_kp = 0.3; d_GSC_IL2_ki = 200; d_GSC_IL2_iv = -0.0055; 

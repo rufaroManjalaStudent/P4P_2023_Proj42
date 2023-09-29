@@ -1,0 +1,146 @@
+2023-9-1 16h5m38s:Using default NodeSessions limit.  Limit set to 1024.
+2023-9-1 16h5m38s: >>>> SessionRoot::initialize port 0
+2023-9-1 16h5m38s:Begin to register on OpalRoot
+2023-9-1 16h5m38s:Registered on OpalRoot, port 25251
+2023-9-1 16h5m38s:Loading services from "C:/OPAL-RT/RT-LAB/2023.2.1/common/bin/x64/Services"
+2023-9-1 16h5m38s:  Plugin "DataAcquisition": services informations retrieved
+2023-9-1 16h5m38s:  Plugin "DriverIdentification": services informations retrieved
+2023-9-1 16h5m38s:  Plugin "Dummy": services informations retrieved
+2023-9-1 16h5m38s:  Plugin "ePHASORSIM": services informations retrieved
+2023-9-1 16h5m38s:  Plugin "HEI": services informations retrieved
+2023-9-1 16h5m38s:  Plugin "IEC104": services informations retrieved
+2023-9-1 16h5m38s:  Plugin "Matlab": services informations retrieved
+2023-9-1 16h5m38s:  Plugin "MODBUS": services informations retrieved
+2023-9-1 16h5m38s:  Plugin "Parameters": services informations retrieved
+2023-9-1 16h5m38s:  Plugin "Pickering-41-752": services informations retrieved
+2023-9-1 16h5m38s:  Plugin "RFM": services informations retrieved
+2023-9-1 16h5m38s:  Plugin "SimulationSetup": services informations retrieved
+2023-9-1 16h5m38s:  Plugin "Web": services informations retrieved
+2023-9-1 16h5m38s:Root initialized: 172.23.163.207:25251/resources/root
+2023-9-1 16h5m38s:Service Web/Server found
+2023-9-1 16h5m38s:Initialization done
+2023-9-1 16h5m38s:ControllerMain.cpp------- NEW CONTROLLER STARTED (pid 10772) ------
+2023-9-1 16h5m38s:Controller.cppnew client: 17620
+2023-9-1 16h5m38s:CClient.cppCreating new client ID: 19828
+2023-9-1 16h5m38s:CClient.cppclientThread started with port:1268
+2023-9-1 16h5m38s:Instance ID = 0
+2023-9-1 16h5m38s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 18164
+2023-9-1 16h5m38s:Service SimulationSetup/SimulationSetup found
+2023-9-1 16h5m38s:No SyncExchangerRegistry found at C:/Users/rufar/OneDrive - The University of Auckland/COMPSYS 700A/P4P_2023_Proj42/modelling_Practise/Ravi_Version/OPAL_RT/configurations/SyncExchangerRegistry
+2023-9-1 16h5m38s:[UniconComm] call POST /projects/initialize
+2023-9-1 16h5m43s:Controller.cppnew client: 17620
+2023-9-1 16h5m43s:CClient.cppCreating new client ID: 20996
+2023-9-1 16h5m43s:CClient.cppclientThread started with port:1460
+2023-9-1 16h5m43s:Instance ID = 102
+2023-9-1 16h5m43s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 23788
+2023-9-1 16h5m43s:[UniconComm] call POST /projects/initialize
+2023-9-1 16h5m43s:[CurlComm][FAILED] Error perform: Failed initialization
+2023-9-1 16h5m43s:Controller.cppRemoving client: 20996
+2023-9-1 16h5m43s:Controller.cppSuccessful removal of client: 20996
+2023-9-1 16h5m43s:CClient.cpp  clientThread exit. ThreadParam = 0x3331f80
+2023-9-1 16h5m43s:[UniconComm] initialize DONE
+2023-9-1 16h5m43s:Controller.cppnew client: 17620
+2023-9-1 16h5m43s:CClient.cppCreating new client ID: 13604
+2023-9-1 16h5m43s:CClient.cppclientThread started with port:1448
+2023-9-1 16h5m43s:Instance ID = 102
+2023-9-1 16h5m43s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 18164
+2023-9-1 16h5m43s:ControllerHandleRequest.cpppClient->notifCommSock = 1488
+2023-9-1 16h5m44s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,1026
+2023-9-1 16h5m44s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,1009
+2023-9-1 16h5m44s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,2015
+2023-9-1 16h5m44s:[UniconComm] call POST /projects/{project_id}/sync
+2023-9-1 16h5m44s:Controller.cppnew client: 17620
+2023-9-1 16h5m44s:CClient.cppCreating new client ID: 12116
+2023-9-1 16h5m44s:CClient.cppclientThread started with port:1496
+2023-9-1 16h5m44s:Instance ID = 102
+2023-9-1 16h5m44s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 23788
+2023-9-1 16h5m44s:Controller.cppRemoving client: 12116
+2023-9-1 16h5m44s:Controller.cppSuccessful removal of client: 12116
+2023-9-1 16h5m44s:CClient.cpp  clientThread exit. ThreadParam = 0x33323e0
+2023-9-1 16h5m54s:Controller.cppnew client: 17620
+2023-9-1 16h5m54s:CClient.cppCreating new client ID: 10464
+2023-9-1 16h5m54s:CClient.cppclientThread started with port:1668
+2023-9-1 16h5m54s:Instance ID = 102
+2023-9-1 16h5m54s:CClient.cppClient connected: name "rufar", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 18164
+2023-9-1 16h8m17s:[UniconComm] call POST /projects/{project_id}/sync
+2023-9-1 16h8m17s:Controller.cppnew client: 17620
+2023-9-1 16h8m17s:CClient.cppCreating new client ID: 6380
+2023-9-1 16h8m17s:CClient.cppclientThread started with port:1636
+2023-9-1 16h8m17s:Instance ID = 102
+2023-9-1 16h8m17s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 23788
+2023-9-1 16h8m17s:Controller.cppRemoving client: 6380
+2023-9-1 16h8m17s:Controller.cppSuccessful removal of client: 6380
+2023-9-1 16h8m17s:CClient.cpp  clientThread exit. ThreadParam = 0x336dcc0
+2023-9-1 16h8m45s:[UniconComm] call POST /projects/{project_id}/sync
+2023-9-1 16h8m45s:Controller.cppnew client: 17620
+2023-9-1 16h8m45s:CClient.cppCreating new client ID: 21276
+2023-9-1 16h8m45s:CClient.cppclientThread started with port:1724
+2023-9-1 16h8m45s:Instance ID = 102
+2023-9-1 16h8m45s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 23788
+2023-9-1 16h8m45s:Controller.cppRemoving client: 21276
+2023-9-1 16h8m45s:Controller.cppSuccessful removal of client: 21276
+2023-9-1 16h8m45s:CClient.cpp  clientThread exit. ThreadParam = 0x336e570
+2023-9-1 16h8m54s:[UniconComm] call POST /projects/{project_id}/sync
+2023-9-1 16h8m55s:Controller.cppnew client: 17620
+2023-9-1 16h8m55s:CClient.cppCreating new client ID: 21336
+2023-9-1 16h8m55s:CClient.cppclientThread started with port:1764
+2023-9-1 16h8m55s:Instance ID = 102
+2023-9-1 16h8m55s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 23788
+2023-9-1 16h8m55s:Controller.cppRemoving client: 21336
+2023-9-1 16h8m55s:Controller.cppSuccessful removal of client: 21336
+2023-9-1 16h8m55s:CClient.cpp  clientThread exit. ThreadParam = 0x336de50
+2023-9-1 16h9m50s:[UniconComm] call POST /projects/{project_id}/sync
+2023-9-1 16h9m50s:Controller.cppnew client: 17620
+2023-9-1 16h9m50s:CClient.cppCreating new client ID: 8352
+2023-9-1 16h9m50s:CClient.cppclientThread started with port:1804
+2023-9-1 16h9m50s:Instance ID = 102
+2023-9-1 16h9m50s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 23788
+2023-9-1 16h9m50s:Controller.cppRemoving client: 8352
+2023-9-1 16h9m50s:Controller.cppSuccessful removal of client: 8352
+2023-9-1 16h9m50s:CClient.cpp  clientThread exit. ThreadParam = 0x336def0
+2023-9-1 16h9m56s:[UniconComm] call POST /projects/{project_id}/sync
+2023-9-1 16h9m56s:Controller.cppnew client: 17620
+2023-9-1 16h9m56s:CClient.cppCreating new client ID: 18048
+2023-9-1 16h9m56s:CClient.cppclientThread started with port:1820
+2023-9-1 16h9m56s:Instance ID = 102
+2023-9-1 16h9m56s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 23788
+2023-9-1 16h9m56s:Controller.cppRemoving client: 18048
+2023-9-1 16h9m56s:Controller.cppSuccessful removal of client: 18048
+2023-9-1 16h9m56s:CClient.cpp  clientThread exit. ThreadParam = 0x336e550
+2023-9-1 16h10m1s:[UniconComm] call POST /projects/{project_id}/sync
+2023-9-1 16h10m1s:Controller.cppnew client: 17620
+2023-9-1 16h10m1s:CClient.cppCreating new client ID: 21184
+2023-9-1 16h10m1s:CClient.cppclientThread started with port:1744
+2023-9-1 16h10m1s:Instance ID = 102
+2023-9-1 16h10m1s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 23788
+2023-9-1 16h10m1s:Controller.cppRemoving client: 21184
+2023-9-1 16h10m1s:Controller.cppSuccessful removal of client: 21184
+2023-9-1 16h10m1s:CClient.cpp  clientThread exit. ThreadParam = 0x336e5d0
+2023-9-1 16h10m12s:[UniconComm] call POST /projects/{project_id}/sync
+2023-9-1 16h10m12s:Controller.cppnew client: 17620
+2023-9-1 16h10m12s:CClient.cppCreating new client ID: 19528
+2023-9-1 16h10m12s:CClient.cppclientThread started with port:768
+2023-9-1 16h10m12s:Instance ID = 102
+2023-9-1 16h10m12s:CClient.cppClient connected: name "SYSTEM", computer "UOA_LAPTOP-RMAN", ip "127.0.0.1", pid 23788
+2023-9-1 16h10m12s:Controller.cppRemoving client: 19528
+2023-9-1 16h10m12s:Controller.cppSuccessful removal of client: 19528
+2023-9-1 16h10m12s:CClient.cpp  clientThread exit. ThreadParam = 0x336e530
+2023-9-1 16h14m12s:Controller.cppRemoving client: 10464
+2023-9-1 16h14m12s:Controller.cppSuccessful removal of client: 10464
+2023-9-1 16h14m12s:CClient.cpp  clientThread exit. ThreadParam = 0x32d8410
+2023-9-1 16h14m12s:Controller.cppRemoving client: 19828
+2023-9-1 16h14m12s:Controller.cppSuccessful removal of client: 19828
+2023-9-1 16h14m12s:CClient.cpp  clientThread exit. ThreadParam = 0x32ee0f0
+2023-9-1 16h14m12s:Controller.cppRemoving client: 13604
+2023-9-1 16h14m12s:ControllerExit.cppterminateControlCommThread, call OpalInitializeSend with ipAddr 172.23.163.207:47389
+2023-9-1 16h14m13s:Controller.cppSuccessful removal of client: 13604
+2023-9-1 16h14m13s:CClient.cpp  clientThread exit. ThreadParam = 0x3331fc0
+2023-9-1 16h14m13s:ControllerExit.cppEntering CloseSubControllers
+2023-9-1 16h14m13s:Stopping OpalNode watchdog.
+2023-9-1 16h14m13s:
+
+MasterRoot shutdown!
+2023-9-1 16h14m13s:Objects destruction
+2023-9-1 16h14m13s:..Unloading Notification Center..
+2023-9-1 16h14m13s:Objects are deleted
+Nothing should happen after this action
